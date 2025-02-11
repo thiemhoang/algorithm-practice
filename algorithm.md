@@ -124,7 +124,7 @@ Line 1 checks for the base of the recursion, in which the subarray A[p:r] consis
 
 The complexity of Randomized Select algorithm depends on how luck we are with the pivot value, if each time of paritioning the array, we only can remove 1 item, the cost will be O(n2). So the best value of the pivot is the median of that sub-array
 There is a solution names median of medians that approximately find the median in linear time complexity
-resources/Screenshot 2025-02-11 154917.png
+![alt text](/resources/Screenshot 2025-02-11 154917.png) 
 ```
 SELECT(A, p, r, i)
     while (r - p + 1) mode 5 != 0
